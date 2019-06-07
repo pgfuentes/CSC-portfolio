@@ -1,0 +1,161 @@
+.about-container {
+  background: url('bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+
+.about {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'noto sans', sans-serif;
+  margin: 0;
+}
+
+.box {
+  float: left;
+  color: #ECEBDC;
+  width: 42.5%;
+  margin-left: 5% margin-top: 80px;
+}
+
+.clear {
+  clear: both;
+}
+
+.contact-headline {
+  color: white;
+}
+
+.contact-me {
+  height: 350px;
+  background-color: #202020;
+  padding-top: 30px;
+}
+
+.contact-info {
+  color: white;
+  font-size: 13px;
+}
+
+.contact-link {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+html {
+  background: url('codingstudent.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+  color: #ECEBDC;
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #ECEBDC;
+  ont-size: 18px;
+  margin-top: 0;
+}
+
+h3 {
+  color: #ECEBDC;
+  ont-size: 18px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 100px;
+}
+
+h4 {
+  color: #ECEBDC;
+  text-align: center;
+  font-size: 24px;
+}
+
+.hire-me {
+  border-style: solid;
+  border-color: white;
+}
+
+.icon {
+  margin: 30px 0;
+}
+
+.icons {
+  text-align: center;
+}
+
+.bio {
+  color: #ECEBDC;
+  font-size: 14px;
+}
+
+li {
+  display: inline-block;
+  font-size: 12px;
+  width: 100px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.mexwhite {
+  height: 150px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #ECEBDC;
+  margin-top: 40px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  color: #ECEBDC;
+  text-align: center;
+}
+
+.grey {
+  height: 3px;
+  background-color: #919191;
+  border: none;
+  width: 50px;
+}
+
+.skills-and-tools {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.yellow {
+  border-top: 5px double #F5A623;
+  width: 250px;
+  border-bottom: none;
+  border-right: none;
+}

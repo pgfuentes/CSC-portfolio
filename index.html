@@ -1,0 +1,211 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300i,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="prism-atom-dark.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="prism.js"></script>
+	<script type="text/javascript" src="ruby.js"></script>
+	<title>Pierre Fuentes</title>
+	<meta name="description" content="Pierre Fuentes is a professional
+        software engineer specializing in full-stack development.
+        He has extensive experience with Ruby, Rails, JavaScript,
+        and building web applications.">
+</head>
+
+<body>
+	<div class="about-container">
+		<ul>
+			<li><a href="#" class="nav-link">About</a></li>
+			<li><a href="#code-samples" class="nav-link">Code Samples</a></li>
+			<li><a href="#web-apps" class="nav-link">Web Apps</a></li>
+			<li><a href="#skills-and-tools" class="nav-link">Skills &amp; Tools</a></li>
+			<li class="hire-me"><a href="#hire-me" class="nav-link">HIRE ME</a></li>
+		</ul>
+		<div class="about">
+			<img src="mexwhite.jpg" class="mexwhite">
+			<h1>Pierre G. Fuentes</h1>
+
+			<h2>FRONT END WEB DEVELOPER</h2>
+			<hr class="grey">
+			<p class="bio">
+				Qualified CRM with over 10 years in fast-paced multiple customer service and call center environments. Personable and professional under pressure.
+			</p>
+		</div>
+	</div>
+	<h3 id="code-samples">Code Snippets</h3>
+	<hr class="yellow">
+	<div class="box">
+		<h4> Temperature Conversion </h4>
+		<p>
+			This Ruby program will prompt the user for a temperature
+			in degrees celcius and let the user know what the
+			corresponding temperature is in Fahrenheit.
+		</p>
+	</div>
+	<div class="box">
+		<pre><code class="language-ruby">
+puts "Enter degrees in Celcius:"
+celcius = gets
+val = "#{celcius}".to_f * (9.0/5.0) + 32.0
+
+greeting = "The temperature is #{val} degrees farhenheit"
+puts greeting
+</code></pre>
+	</div>
+	<br class="clear" />
+	<div class="box">
+		<pre><code class="language-ruby">
+		puts "enter a number"
+val = gets.chomp.to_i
+ones_place = val % 10
+tens_place = val % 100
+
+if ones_place >= 11 && tens_place <= 19
+    puts "#{val}th"
+end
+
+
+if ones_place == 0
+    puts "#{val}th"
+elsif ones_place == 1
+    puts "#{val}st"
+elsif ones_place == 2
+    puts "#{val}nd"
+elsif ones_place == 3
+    puts "#{val}rd"
+else
+    puts "#{val}th"
+
+end
+</code></pre>
+	</div>
+	<div class="box">
+		<h4>Ordinal Challenge</h4>
+		<p>
+			This Ruby program will convert a plain number
+			to the ordinal of the number. So for example,
+			if the user enters 2, it will display 2nd, if
+			the user enters 3, it will display 3rd, etc
+		</p>
+	</div>
+	<br class="clear" />
+	<div class="box">
+		<h4>Foobar</h4>
+		<p>This ruby program is an adaptation of a classical technical
+			interview problem which displays sequences
+			of the foobar pattern</p>
+	</div>
+	<div class="box">
+		<pre><code class="language-ruby">
+puts &quot;How many items do you want to see?&quot;
+items = gets.chomp.to_i
+
+list = []
+(1..items).each do |n|
+  if n % 3 == 0 &amp;&amp; n % 5 == 0
+    list &lt;&lt; &quot;FOOBAR&quot;
+  elsif n % 3 == 0
+    list &lt;&lt; &quot;FOO&quot;
+  elsif n % 5 == 0
+    list &lt;&lt; &quot;BAR&quot;
+  else
+    list &lt;&lt; n
+  end
+end
+</code></pre>
+	</div>
+	<br class="clear" />
+	<h3 id="web-apps">Web Apps</h3>
+	<hr class="yellow" />
+	<div class="box">
+		<h4>Quote Generator</h4>
+		<img src="plurty.png" class="full-width" />
+		<p>
+			A database-powered quote generator with a mobile-first
+			design, using the Ruby on Rails framework, HTML, and CSS.
+			Uses Git and GitHub for version control, and launched
+			on Heroku
+		</p>
+	</div>
+	<div class="box">
+		<h4>Yelp Clone</h4>
+		<img src="monster.png" class="full-width" />
+		<p>
+			A Yelp clone that integrates with the Google Maps API
+			and includes features like user comments, star ratings,
+			image uploading, and user authentication
+		</p>
+	</div>
+	<br class="clear" />
+	<div class="box">
+		<h4>Two-Sided Market Place</h4>
+		<img src="flixter.png" class="full-width" />
+		<p>
+			A two-sided, video streaming marketplace platform that
+			features credit card payment capabilities, user role
+			management, complex user interfaces, and advanced
+			database relationships
+		</p>
+	</div>
+	<div class="box">
+		<h4>Test Driven Development</h4>
+		<img src="grammable.png" class="full-width" />
+		<p>
+			An Instagram clone that was built using industry-standard, test-driven
+			development following numerous red/green/refractor cyles
+		</p>
+	</div>
+	<br class="clear" />
+	<div class="box">
+		<h4>Single Page Todo Application</h4>
+		<img src="todoster.png" class="full-width" />
+		<p>
+			This single-page to-do application features a
+			fluid user interface that– by using JavaScript–
+			allows users to rapidly add dynamic content.
+		</p>
+	</div>
+	<div class="box">
+		<h4>Agile Team Project</h4>
+		<img src="chess.png" class="full-width" />
+		<p>
+			Worked on an Agile software development team building
+			a chess application. Under the guidance of a senior software engineer,
+			we had weekly Agile team meetings for code reviews, sprint planning,
+			and feature assignments.
+		</p>
+	</div>
+	<br class="clear" />
+	<h3 id="skills-and-tools">Skills &amp; Tools</h3>
+	<hr class="yellow" />
+	<p class="skills-and-tools">
+		Pierre has developed proficiency and expertise
+		in the following programming languages and
+		comfort with the following tools.
+	</p>
+	<div class="icons">
+		<img src="github.png" class="icon" />
+		<img src="rubocop.png" class="icon" />
+		<img src="trello.png" class="icon" />
+		<img src="slack.png" class="icon" />
+		<img src="codeship.png" class="icon" />
+		<br class="clear" />
+		<img src="skills.png" class="icon" />
+	</div>
+	<div class="contact-me" id="hire-me">
+		<h3 class="contact-headline">Contact</h3>
+		<hr class="yellow" />
+		<p class="contact-info">
+			Currently entertaining new opportunities.
+			Please get in touch via email:
+		</p>
+		<p>
+			<a href="mailto:pgfuentes@yahoo.com" class="contact-link">
+				pgfuentes@yahoo.com
+			</a>
+		</p>
+	</div>
+</body>
+
+</html>
